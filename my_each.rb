@@ -5,12 +5,12 @@ if block_given?
   i = 0 
   
   while i < greetings.length 
-    my_each(greetings) do |i|
+    yield(greetings[i])
   i += 1
-end
+  end
 
-greetings
-
+  greetings
+else
+  puts ""
 end
-  # code here
 end
