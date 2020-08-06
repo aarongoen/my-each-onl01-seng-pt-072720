@@ -11,6 +11,6 @@ if block_given?
 
   words
 else
-  puts ""
+  puts "This block should not run!"
 end
 end
