@@ -1,15 +1,15 @@
-words = ['hi', 'hello', 'bye', 'goodbye']
+greetings = ['hi', 'hello', 'bye', 'goodbye']
 
-def my_each(words)
+def my_each(greetings)
 if block_given?
   i = 0 
   
-  while i < words.length 
-    my_each(words) do |i|
+  while i < greetings.length 
+    my_each(greetings) do |i|
   i += 1
 end
 
-words
+greetings
 
 end
   # code here
