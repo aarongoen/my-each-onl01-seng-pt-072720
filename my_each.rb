@@ -1,15 +1,15 @@
-greetings = ['hi', 'hello', 'bye', 'goodbye']
+words = ['hi', 'hello', 'bye', 'goodbye']
 
-def my_each(greetings)
+def my_each(words)
 if block_given?
   counter = 0 
   
-  while i < greetings.length 
-    yield(greetings[counter])
+  while i < words.length 
+    yield(words[counter])
   counter += 1
   end
 
-  greetings
+  words
 else
   puts ""
 end
