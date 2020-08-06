@@ -2,11 +2,11 @@ greetings = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(greetings)
 if block_given?
-  i = 0 
+  counter = 0 
   
   while i < greetings.length 
-    yield(greetings[i])
-  i += 1
+    yield(greetings[counter])
+  counter += 1
   end
 
   greetings
