@@ -13,6 +13,6 @@ if block_given? == TRUE
 elsif block_given? == []
   puts "This block should not run!"
 else block_given? == FALSE
-  
+  puts "Needs block to evaluate."
 end
 end
