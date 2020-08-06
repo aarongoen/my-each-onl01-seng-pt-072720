@@ -1,7 +1,7 @@
 words = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(words)
-if block_given?
+if block_given? == TRUE
   counter = 0 
   
   while i < words.length 
@@ -10,7 +10,9 @@ if block_given?
   end
 
   words
-else
+elsif block_given? == []
   puts "This block should not run!"
+else block_given? == FALSE
+  
 end
 end
