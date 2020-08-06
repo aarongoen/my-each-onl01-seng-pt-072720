@@ -1,12 +1,15 @@
 words = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(words)
-  while
-  i < words.length 
+if block_given?
+  i = 0 
   
-  my_each(words) do |i|
-  puts i
+  while i < words.length 
+    my_each(words) do |i|
+  i += 1
 end
+
+words
 
 end
   # code here
