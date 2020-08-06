@@ -1,9 +1,10 @@
-collection = [1, 2, 3, 4]
+words = ['hi', 'hello', 'bye', 'goodbye']
 
-def my_each(collection)
+def my_each(words)
   while
+  i < words.length 
   
-  my_each(collection) do |i|
+  my_each(words) do |i|
   puts i
 end
 
